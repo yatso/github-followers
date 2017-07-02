@@ -16,7 +16,7 @@ app.controller('appCtrl', function ($scope, $http) {
                 console.log($scope.userObj);
             },
             function (error) {
-                console.log(error);
+                console.log('Uh oh! Sorry something is wrong. If you typed in the right username, it\'s probably not your fault!', error);
             }
         );
     };
