@@ -4,7 +4,9 @@ app.controller('appCtrl', function ($scope, $http) {
     $scope.username = "yatso";
     $scope.fetchAll = function () {
         $scope.fetchUserInfo();
+        $scope.fetchFollowersList();
     }
+    
     $scope.fetchUserInfo = function () {
         $http({
             method: "GET",
@@ -20,4 +22,21 @@ app.controller('appCtrl', function ($scope, $http) {
             }
         );
     };
+    
+    $scope.fetchFollowersList = function() {
+      $http({
+        method: "GET",
+        url: "https://api.github.com/users/" + $scope.username + "/followers"
+      }).then(
+        function(result) {
+          // console.log(result);
+          $scope.followersListObj = result.data;
+          console.log($scope.followersListObj);
+        },
+        function(error) {
+          console.log(error);
+        }
+      );
+    };
+    
 });

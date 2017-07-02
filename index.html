@@ -13,19 +13,22 @@
 
 <body ng-app="githubFollowersApp">
     <main ng-controller="appCtrl" class="container">
-        <section>
+        <section class="section">
             <label for="username">Input any GitHub username. Hit submit to get their list of followers</label>
             <br/>
             <input ng-model="username" id="username" type="text" />
             <button ng-click="fetchAll()">Submit</button>
         </section>
-        <section>
+        <section class="section">
             <table>
                 <tr>
                     <td>GitHub Handle: {{userObj.login}}</td>
                 </tr>
                 <tr>
                     <td># of followers: {{userObj.followers}}</td>
+                </tr>
+                <tr ng-repeat="item in followersListObj">
+                    <td><img ng-src="{{item.avatar_url}}" alt="Description" width="100" /></td>
                 </tr>
             </table>
         </section>
