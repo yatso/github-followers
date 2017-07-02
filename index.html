@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Put your title here</title>
+    <!--bootstrap css framework-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--custom css files-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="yourApp">
+<!--    <div ng-view="app" class="container"></div>-->
+    <div ng-controller="appCtrl" class="container">
+        <input ng-model="inputData" class="test" type="text"/>
+        <p>{{inputData}}</p>
+    </div>
+         
+    <!--angular js framework-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <!--js files-->
+    <script src="js/index.js"></script>
+</body>
+</html>
