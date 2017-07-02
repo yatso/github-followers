@@ -12,11 +12,21 @@
 </head>
 
 <body ng-app="githubFollowersApp">
-    <div ng-controller="appCtrl" class="container">
-        <p>Input any GitHub username. Hit submit to get their list of followers</p>
-        <input type="text" ng-model="username" />
-        <button ng-click="fetchAll()">Submit</button>
-    </div>
+    <main ng-controller="appCtrl" class="container">
+        <section>
+            <label for="username">Input any GitHub username. Hit submit to get their list of followers</label>
+            <br/>
+            <input ng-model="username" id="username" type="text" />
+            <button ng-click="fetchAll()">Submit</button>
+        </section>
+        <section>
+            <table>
+                <tr>
+                    <td>GitHub Handle: {{userObj.login}}</td>
+                </tr>
+            </table>
+        </section>
+    </main>
     <!--angular js framework-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <!--js files-->
