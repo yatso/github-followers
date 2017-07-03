@@ -23,7 +23,7 @@
         <section class="section">
             <!-- Form for username entry with built-in Angular form controls -->
             <form name="userForm" ng-submit="fetchAll(userForm.$valid)" novalidate>
-                <input name="usernameInput" ng-model="username" id="username" type="text" required/>
+                <input name="usernameInput" ng-model="username" id="username" type="text" autocomplete="off" required/>
                 <button ng-disabled="!(userForm.$valid)" type="submit" class="btn btn-primary">Submit</button>
                 <label ng-show="!(userForm.$valid)" for="username">Please enter a GitHub username</label>
                 <label ng-show="errorMessage" for="username">{{errorMessage}}</label>
