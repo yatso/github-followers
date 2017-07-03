@@ -4,7 +4,7 @@
 <head>
     
     <!-- Meta-Information -->
-    <title>GitHub Followers v1.3</title>
+    <title>GitHub Followers v1.4</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -21,10 +21,13 @@
     <!-- Our Content Goes Here -->
     <main ng-controller="appCtrl" class="container">
         <section class="section">
-            <label for="username">Input any GitHub username. Hit submit to get their list of followers</label>
-            <br/>
-            <input ng-model="username" id="username" type="text" />
-            <button ng-click="fetchAll()">Submit</button>
+            <!-- Form for username entry with built-in Angular form controls -->
+            <form name="userForm" ng-submit="fetchAll(userForm.$valid)" novalidate>
+                <input name="usernameInput" ng-model="username" id="username" type="text" required/>
+                <button ng-disabled="!(userForm.$valid)" type="submit" class="btn btn-primary">Submit</button>
+                <label ng-show="!(userForm.$valid)" for="username">Please enter a GitHub username</label>
+                <label ng-show="errorMessage" for="username">{{errorMessage}}</label>
+            </form>
         </section>
         <section class="section">
             <table>
