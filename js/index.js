@@ -1,50 +1,52 @@
 var app = angular.module('githubFollowersApp', []);
 
-app.controller('appCtrl', function ($scope, $http, $timeout) {
-    $scope.username = '';
-    $scope.errorMessage = '';
-    $scope.fetchAll = function () {
-        $scope.fetchUserInfo();
-        $scope.fetchFollowersList();
+app.controller('appCtrl', function ($http, $timeout) {
+    
+    vm = this;
+    vm.username = '';
+    vm.errorMessage = '';
+    vm.fetchAll = function () {
+        vm.fetchUserInfo();
+        vm.fetchFollowersList();
     }
 
-    $scope.fetchUserInfo = function () {
+    vm.fetchUserInfo = function () {
         $http({
             method: 'GET',
-            url: 'https://api.github.com/users/' + $scope.username
+            url: 'https://api.github.com/users/' + vm.username
         }).then(
             function (result) {
                 console.log(result);
-                $scope.userObj = result.data;
-                console.log($scope.userObj);
+                vm.userObj = result.data;
+                console.log(vm.userObj);
             },
             function (error) {
                 console.log(error);
-                $scope.errorMessage = 'Sorry, username not found.';
+                vm.errorMessage = 'Sorry, username not found.';
                 // Clear error message after 2 seconds
                 $timeout(function(){
-                   $scope.errorMessage = '';
+                   vm.errorMessage = '';
                 }, 2000);
             }
         );
     };
 
-    $scope.fetchFollowersList = function () {
+    vm.fetchFollowersList = function () {
         $http({
             method: 'GET',
-            url: 'https://api.github.com/users/' + $scope.username + '/followers'
+            url: 'https://api.github.com/users/' + vm.username + '/followers'
         }).then(
             function (result) {
                 // console.log(result);
-                $scope.followersListObj = result.data;
-                console.log($scope.followersListObj);
+                vm.followersListObj = result.data;
+                console.log(vm.followersListObj);
             },
             function (error) {
                 console.log(error);
-                $scope.errorMessage = 'Sorry, username not found.';
+                vm.errorMessage = 'Sorry, username not found.';
                 // Clear error message after 2 seconds
                 $timeout(function(){
-                   $scope.errorMessage = '';
+                   vm.errorMessage = '';
                 }, 2000);
             }
         );
