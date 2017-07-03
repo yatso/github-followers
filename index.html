@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 
 <head>
     
@@ -12,44 +12,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
     <!-- Our CSS Stylesheets-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="content/css/app.css">
     
 </head>
 
-<body ng-app="githubFollowersApp">
+<body>
     
-    <!-- Our Content Goes Here -->
-    <main ng-controller="appCtrl as vm" class="container">
-        <section class="section">
-            <!-- Form for username entry with built-in Angular form controls -->
-            <form name="userForm" ng-submit="vm.fetchAll(userForm.$valid)" novalidate>
-                <input name="usernameInput" ng-model="vm.username" id="username" type="text" autocomplete="off" required/>
-                <button ng-disabled="!(userForm.$valid)" type="submit" class="btn btn-primary">Submit</button>
-                <br/>
-                <label ng-show="!(userForm.$valid)" for="username">Please enter a GitHub username</label>
-                <label ng-show="vm.errorMessage" for="username">{{vm.errorMessage}}</label>
-            </form>
-        </section>
-        <section class="section">
-            <table>
-                <tr>
-                    <td>GitHub Handle: {{vm.userObj.login}}</td>
-                </tr>
-                <tr>
-                    <td># of followers: {{vm.userObj.followers}}</td>
-                </tr>
-                <tr ng-repeat="item in vm.followersListObj">
-                    <td><img ng-src="{{item.avatar_url}}" alt="Description" width="100" /></td>
-                </tr>
-            </table>
-        </section>
-    </main>
+    <!--Main content that changes based on route-->
+    <div ng-view class="container"></div>
     
-    <!-- Vendor: AngularJS -->
+    <!--Third-party JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
     
-    <!-- Our JS Files-->
-    <script src="js/index.js"></script>
+    <!--main app module-->
+    <script src="app/app.module.js"></script>
+    
+    <!--getfollowers module-->
+    <script src="app/getFollowers/getFollowers.module.js"></script>
+    <script src="app/getFollowers/getFollowers.controller.js"></script>
+    <script src="app/getFollowers/getFollowers.service.js"></script>
+    
 </body>
 
 </html>
