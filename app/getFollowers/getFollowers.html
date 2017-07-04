@@ -3,7 +3,7 @@
         <!-- Form for username entry with built-in Angular form controls -->
         <form name="userForm" ng-submit="vm.getAll(vm.username)" novalidate>
             <input name="usernameInput" ng-model="vm.username" id="username" type="text" autocomplete="off" required/>
-            <button ng-disabled="!(userForm.$valid)" type="submit" class="btn btn-primary">Submit</button>
+            <button ng-disabled="!(userForm.$valid)" type="submit" class="btn btn-primary">Get</button>
             <br/>
             <label ng-show="!(userForm.$valid)" for="username">Please enter a GitHub username</label>
             <label ng-show="vm.errorMessage" for="username">{{vm.errorMessage}}</label>
@@ -16,16 +16,11 @@
             <span class="followers-title"> has {{vm.userObj.followers}} followers</span>
         </div>
         <table>
-<!--
-            <tr>
-                <td>GitHub Handle: {{vm.userObj.login}}</td>
-            </tr>
-            <tr>
-                <td># of followers: {{vm.userObj.followers}}</td>
-            </tr>
--->
             <tr ng-repeat="item in vm.followersObj">
                 <td><img ng-src="{{item.avatar_url}}" alt="Description" width="200px" /></td>
+            </tr>
+            <tr>
+                <td ng-show="vm.userObj.followers > 30"><span class="max-avatar-text">30 max avatars for this version. Stay tuned :)</span></td>
             </tr>
         </table>
     </section>

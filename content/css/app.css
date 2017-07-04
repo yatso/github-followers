@@ -30,6 +30,15 @@ table tr:nth-child(odd) {
     /*    background-color: #ffffff;*/
 }
 
+.followers-title {
+    color: #616161;
+    font-size: 1.75rem;
+}
+
+.max-avatar-text {
+    color: #616161;
+}
+
 .navbar-header {
     padding: 15px;
     text-align: center;
@@ -54,9 +63,4 @@ table tr:nth-child(odd) {
     color: #212121;
     font-size: 5rem;
     line-height: 1.1;
-}
-
-.followers-title {
-    color: #616161;
-    font-size: 1.75rem;
 }
