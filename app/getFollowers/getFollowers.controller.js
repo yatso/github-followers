@@ -11,7 +11,7 @@
 
         var vm = this;
 
-        vm.username = null;
+        vm.username = 'yatso';
         vm.errorMessage = null;
         vm.userObj = {};
         vm.followersObj = {};

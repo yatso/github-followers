@@ -10,18 +10,24 @@ section {
 table,
 th,
 td {
-    border: 1px solid grey;
     border-collapse: collapse;
     padding: 5px;
     margin: 0 auto;
+    width: 100%;
 }
 
-table tr:nth-child(odd) {
-    background-color: #f1f1f1;
+table tr {
+    border-left: 1px solid #F5F5F5;
+    border-right: 1px solid #F5F5F5;
+    background-color: #FAFAFA;
 }
 
 table tr:nth-child(even) {
-    background-color: #ffffff;
+    /*    background-color: #f1f1f1;*/
+}
+
+table tr:nth-child(odd) {
+    /*    background-color: #ffffff;*/
 }
 
 .navbar-header {
@@ -35,4 +41,22 @@ table tr:nth-child(even) {
     color: #72B03A;
     font-size: calc(2rem + 1vw);
     font-weight: 300;
+}
+
+.username-div {
+    /*    border: 1px dashed red;*/
+    /*    border-left: 5px solid #616161;*/
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+.username-title {
+    color: #212121;
+    font-size: 5rem;
+    line-height: 1.1;
+}
+
+.followers-title {
+    color: #616161;
+    font-size: 1.75rem;
 }

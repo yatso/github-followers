@@ -10,15 +10,22 @@
         </form>
     </section>
     <section class="section">
+        <div ng-show="vm.userObj.login" class="username-div">
+            <span class="username-title">{{vm.userObj.login}}</span>
+            <br>
+            <span class="followers-title"> has {{vm.userObj.followers}} followers</span>
+        </div>
         <table>
+<!--
             <tr>
                 <td>GitHub Handle: {{vm.userObj.login}}</td>
             </tr>
             <tr>
                 <td># of followers: {{vm.userObj.followers}}</td>
             </tr>
+-->
             <tr ng-repeat="item in vm.followersObj">
-                <td><img ng-src="{{item.avatar_url}}" alt="Description" width="100" /></td>
+                <td><img ng-src="{{item.avatar_url}}" alt="Description" width="200px" /></td>
             </tr>
         </table>
     </section>
