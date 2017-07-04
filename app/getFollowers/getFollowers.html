@@ -17,7 +17,7 @@
             <br>
             <span class="followers-title"> has {{vm.userObj.followers}} followers</span>
         </div>
-        <table>
+        <table ng-show="vm.userObj.login" class="followers-table">
             <tr ng-repeat="item in vm.followersObj">
                 <td><img ng-src="{{item.avatar_url}}" alt="Description" width="200px" /></td>
             </tr>

@@ -7,33 +7,22 @@ section {
     margin: 20px;
 }
 
-table,
-th,
-td {
-    border-collapse: collapse;
-    padding: 5px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-table tr {
-    border-left: 1px solid #F5F5F5;
-    border-right: 1px solid #F5F5F5;
-    background-color: #FAFAFA;
-}
-
 #enter-username-label {
-    color: #616161;
+    /* grey */
+    color: #757575;
     padding-left: 20px;
 }
 
 #error-label {
-    color: #616161;
+    /* grey */
+    color: #757575;
     padding-left: 20px;
 }
 
 #username-input {
     border: none;
+    outline: none;
+    /* grey */
     color: #616161;
     background-color: #f5f5f5;
     margin: 0;
@@ -42,13 +31,16 @@ table tr {
     width: 74%;
     height: 75px;
     vertical-align: bottom;
-    outline: none;
 }
 
 #search-button {
     border: none;
+    outline: none;
     border-radius: 1px;
-    background-color: #72B03A;
+    /* lighter green color */
+    background-color: #95D061;
+    /* almost white grey */
+    color: #FAFAFA;
     margin-left: -3px;
     padding: 20px;
     font-size: 2.5rem;
@@ -57,12 +49,35 @@ table tr {
 }
 
 .followers-title {
-    color: #616161;
+    /* medium light grey */
+    color: #9E9E9E;
     font-size: 1.75rem;
 }
 
+.followers-table {
+    /* almost white grey */
+    background-color: #FAFAFA;
+    border-collapse: inherit;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-left: 1px solid #F5F5F5;
+    border-right: 1px solid #F5F5F5;
+    width: 100%;
+}
+
+.followers-table>th,
+td {
+    padding: 5px;
+}
+
 .max-avatar-text {
+    /* grey */
     color: #616161;
+}
+
+.navbar-default {
+    /* lightest green color */
+    background-color: #BCE994;
 }
 
 .navbar-header {
@@ -83,12 +98,14 @@ table tr {
 }
 
 .username-div {
-    background-color: #F5F5F5;
+    /* light grey */
+    background-color: #BCE994;
     padding: 20px;
 }
 
 .username-title {
-    color: #212121;
+    /* grey */
+    color: #616161;
     font-size: 5rem;
     line-height: 1.1;
 }
