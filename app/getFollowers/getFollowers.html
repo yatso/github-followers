@@ -3,11 +3,11 @@
         <div class="search-div">
             <!-- Form for username entry with built-in Angular form controls -->
             <form name="userForm" ng-submit="vm.getAll(vm.username)" novalidate>
-                <input name="usernameInput" ng-model="vm.username" id="username-input" type="text" autocomplete="off" required/>
-                <button ng-disabled="!(userForm.$valid)" type="submit" id="search-button" class="btn btn-primary">Get</button>
+                <input name="usernameInput" ng-model="vm.username" class="username-input" type="text" autocomplete="off" required/>
+                <button ng-disabled="!(userForm.$valid)" type="submit" class="search-button" class="btn btn-primary">Get</button>
                 <br/>
-                <label ng-show="!(userForm.$valid)" id="enter-username-label" for="username-input">Please enter a GitHub username</label>
-                <label ng-show="vm.errorMessage" id="error-label" for="username-input">{{vm.errorMessage}}</label>
+                <label ng-show="!(userForm.$valid)" class="enter-username-label" for="username-input">Please enter a GitHub username</label>
+                <label ng-show="vm.errorMessage" class="error-label" for="username-input">{{vm.errorMessage}}</label>
             </form>
         </div>
     </section>

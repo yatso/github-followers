@@ -7,19 +7,19 @@ section {
     margin: 20px;
 }
 
-#enter-username-label {
+.enter-username-label {
     /* grey */
     color: #757575;
     padding-left: 5%;
 }
 
-#error-label {
+.error-label {
     /* grey */
     color: #757575;
     padding-left: 5%;
 }
 
-#username-input {
+.username-input {
     border: none;
     outline: none;
     /* grey */
@@ -28,13 +28,13 @@ section {
     margin: 0;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: calc(2rem + 1vw);
+    font-size: calc(32px + 1vw);
     width: 74%;
     height: 75px;
     vertical-align: bottom;
 }
 
-#search-button {
+.search-button {
     border: none;
     outline: none;
     border-radius: 1px;
@@ -45,7 +45,7 @@ section {
     margin-left: -3px;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: calc(2rem + 1vw);
+    font-size: calc(20px + 1vw);
     width: 24%;
     height: 75px;
 }
@@ -53,7 +53,7 @@ section {
 .followers-title {
     /* medium light grey */
     color: #9E9E9E;
-    font-size: 1.75rem;
+    font-size: 20px;
 }
 
 .followers-table {
@@ -77,12 +77,11 @@ td {
     color: #616161;
 }
 
-.navbar-default {
+.navbar-custom {
+    /* light grey */
+    border-bottom: 1px solid #F5F5F5;
     /* lightest green color */
     background-color: #BCE994;
-}
-
-.navbar-header {
     padding: 15px;
     text-align: center;
     width: 100%;
@@ -91,7 +90,7 @@ td {
 .navbar-title {
     /* shipt green color */
     color: #72B03A;
-    font-size: calc(2rem + 1vw);
+    font-size: calc(20px + 1vw);
     font-weight: 300;
 }
 
@@ -100,14 +99,14 @@ td {
 }
 
 .username-div {
-    /* light grey */
+    /* light green */
     background-color: #BCE994;
-    padding: 20px;
+    padding: calc(25px + 1vw);
 }
 
 .username-title {
     /* grey */
     color: #616161;
-    font-size: 5rem;
+    font-size: calc(50px + 1vw);
     line-height: 1.1;
 }
