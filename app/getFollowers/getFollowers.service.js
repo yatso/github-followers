@@ -10,21 +10,21 @@
     function getFollowersService($http) {
 
         var service = {
-            getUser: getUser,
-            getFollowers: getFollowers
+            getFollowers: getFollowers,
+            getUser: getUser
         };
 
         return service;
 
         ////////////
 
-        function getUser(username) {
-            return $http.get('https://api.github.com/users/' + username);
-        }
-
         function getFollowers(username) {
             return $http.get('https://api.github.com/users/' + username + '/followers');
         };
+
+        function getUser(username) {
+            return $http.get('https://api.github.com/users/' + username);
+        }
 
     }
 
