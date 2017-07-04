@@ -5,9 +5,9 @@
         .module('app.getFollowers')
         .controller('GetFollowersController', GetFollowersController);
 
-    GetFollowersController.$inject = ['getFollowersService', '$timeout'];
+    GetFollowersController.$inject = ['getFollowersService', '$timeout','$filter'];
 
-    function GetFollowersController(getFollowersService, $timeout) {
+    function GetFollowersController(getFollowersService, $timeout, $filter) {
 
         var vm = this;
 
@@ -15,19 +15,19 @@
         vm.errorMessage = null;
         vm.userObj = {};
         vm.followersObj = {};
-        vm.fetchAll = fetchAll;
+        vm.getAll = getAll;
 
-        function fetchAll(username) {
-            fetchUser(username);
-            fetchFollowers(username);
+        function getAll(username) {
+            getUser(username);
+            getFollowers(username);
         }
 
-        function fetchUser(username) {
-            getFollowersService.fetchUser(username).then(successUser, failure);
+        function getUser(username) {
+            getFollowersService.getUser(username).then(successUser, failure);
         }
 
-        function fetchFollowers(username) {
-            getFollowersService.fetchFollowers(username).then(successFollowers, failure);
+        function getFollowers(username) {
+            getFollowersService.getFollowers(username).then(successFollowers, failure);
         }
 
         function successUser(result) {
@@ -39,7 +39,7 @@
         }
 
         function failure(error) {
-            vm.errorMessage = 'Sorry GitHub Username ' + error.statusText;
+            vm.errorMessage = 'Sorry GitHub username ' + $filter('lowercase')(error.statusText);
             clearErrorMessage();
         }
 

@@ -10,19 +10,19 @@
     function getFollowersService($http) {
 
         var service = {
-            fetchUser: fetchUser,
-            fetchFollowers: fetchFollowers
+            getUser: getUser,
+            getFollowers: getFollowers
         };
 
         return service;
 
         ////////////
 
-        function fetchUser(username) {
+        function getUser(username) {
             return $http.get('https://api.github.com/users/' + username);
         }
 
-        function fetchFollowers(username) {
+        function getFollowers(username) {
             return $http.get('https://api.github.com/users/' + username + '/followers');
         };
 
