@@ -17,6 +17,8 @@
         vm.followersObj = {};
         vm.getAll = getAll;
 
+        ////////////
+
         function getAll(username) {
             getUser(username);
             getFollowers(username);
@@ -42,7 +44,8 @@
             vm.errorMessage = 'Sorry GitHub username ' + $filter('lowercase')(error.statusText);
             clearErrorMessage();
         }
-
+        
+        // Clears error message after two seconds to not annoy user.
         function clearErrorMessage() {
             $timeout(function () {
                 vm.errorMessage = null;
