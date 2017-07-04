@@ -7,7 +7,8 @@
             'ngRoute',
 
             // Custom modules.
-            'app.getFollowers'
+            'app.getFollowers',
+            'app.layout'
         ])
         .config(configFunction);
 

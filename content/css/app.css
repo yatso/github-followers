@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    padding-top: 70px;
 }
 
 section {
@@ -21,4 +22,17 @@ table tr:nth-child(odd) {
 
 table tr:nth-child(even) {
     background-color: #ffffff;
+}
+
+.navbar-header {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-title {
+    /* shipt green color */
+    color: #72B03A;
+    font-size: calc(2rem + 1vw);
+    font-weight: 300;
 }
