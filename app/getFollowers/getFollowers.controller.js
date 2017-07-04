@@ -5,59 +5,49 @@
         .module('app.getFollowers')
         .controller('GetFollowersController', GetFollowersController);
 
-    GetFollowersController.$inject = ['$http', '$timeout'];
+    GetFollowersController.$inject = ['getFollowersService', '$timeout'];
 
-    function GetFollowersController($http, $timeout) {
+    function GetFollowersController(getFollowersService, $timeout) {
 
         var vm = this;
-        vm.username = '';
-        vm.errorMessage = '';
-        vm.fetchAll = function () {
-            vm.fetchUserInfo();
-            vm.fetchFollowersList();
+
+        vm.username = null;
+        vm.errorMessage = null;
+        vm.userObj = {};
+        vm.followersObj = {};
+        vm.fetchAll = fetchAll;
+
+        function fetchAll(username) {
+            fetchUser(username);
+            fetchFollowers(username);
         }
 
-        vm.fetchUserInfo = function () {
-            $http({
-                method: 'GET',
-                url: 'https://api.github.com/users/' + vm.username
-            }).then(
-                function (result) {
-                    console.log(result);
-                    vm.userObj = result.data;
-                    console.log(vm.userObj);
-                },
-                function (error) {
-                    console.log(error);
-                    vm.errorMessage = 'Sorry, username not found.';
-                    // Clear error message after 2 seconds
-                    $timeout(function () {
-                        vm.errorMessage = '';
-                    }, 2000);
-                }
-            );
-        };
+        function fetchUser(username) {
+            getFollowersService.fetchUser(username).then(successUser, failure);
+        }
 
-        vm.fetchFollowersList = function () {
-            $http({
-                method: 'GET',
-                url: 'https://api.github.com/users/' + vm.username + '/followers'
-            }).then(
-                function (result) {
-                    // console.log(result);
-                    vm.followersListObj = result.data;
-                    console.log(vm.followersListObj);
-                },
-                function (error) {
-                    console.log(error);
-                    vm.errorMessage = 'Sorry, username not found.';
-                    // Clear error message after 2 seconds
-                    $timeout(function () {
-                        vm.errorMessage = '';
-                    }, 2000);
-                }
-            );
-        };
+        function fetchFollowers(username) {
+            getFollowersService.fetchFollowers(username).then(successFollowers, failure);
+        }
+
+        function successUser(result) {
+            vm.userObj = result.data;
+        }
+
+        function successFollowers(result) {
+            vm.followersObj = result.data;
+        }
+
+        function failure(error) {
+            vm.errorMessage = 'Sorry GitHub Username ' + error.statusText;
+            clearErrorMessage();
+        }
+
+        function clearErrorMessage() {
+            $timeout(function () {
+                vm.errorMessage = null;
+            }, 2000);
+        }
 
     }
 

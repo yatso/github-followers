@@ -1,7 +1,7 @@
 <main>
     <section class="section">
         <!-- Form for username entry with built-in Angular form controls -->
-        <form name="userForm" ng-submit="vm.fetchAll(userForm.$valid)" novalidate>
+        <form name="userForm" ng-submit="vm.fetchAll(vm.username)" novalidate>
             <input name="usernameInput" ng-model="vm.username" id="username" type="text" autocomplete="off" required/>
             <button ng-disabled="!(userForm.$valid)" type="submit" class="btn btn-primary">Submit</button>
             <br/>
@@ -17,7 +17,7 @@
             <tr>
                 <td># of followers: {{vm.userObj.followers}}</td>
             </tr>
-            <tr ng-repeat="item in vm.followersListObj">
+            <tr ng-repeat="item in vm.followersObj">
                 <td><img ng-src="{{item.avatar_url}}" alt="Description" width="100" /></td>
             </tr>
         </table>
