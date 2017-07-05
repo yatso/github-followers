@@ -147,5 +147,5 @@ Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technic
 
 # Acknowledgments
 
-* This project was inspired by a coding challenge at sent over by Shipt
+This project was inspired by a coding challenge sent by Shipt
 
