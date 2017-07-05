@@ -130,13 +130,13 @@ For the benefit of readability and maintainability,
 
 Please see [Excluded Features](https://github.com/yatso/GitHub-Followers#excluded-features)
 
-# UX (User Experience)
+# UX ( User Experience )
 
 >UX: is the web interface understandable and pleasing to use?
 
 Tried my best to make this as user friendly as possible given the limited time. [Live Demo](https://yatso.github.io/GitHub-Followers/)
 
-# UI (User Interface)
+# UI ( User Interface )
 
 For the UI, I haven't had time to truly optimize it but I followed some of the principals I wrote about in a recent [medium blog post](https://medium.com/yats-blog/ui-design-hacks-you-can-implement-today-from-my-visual-designer-gf-at-google-f284c5f7e686).
 
