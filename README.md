@@ -17,7 +17,7 @@ Built with :heart: using AngularJS 1.6.5
 # Problem
 A user should have an easy way to find followers of other GitHub users by searching for their GitHub username.
 
-Project requirements/feature requests:
+###### Project requirements/feature requests:
 1. User can search by target GitHub username.
 2. User should see the target user's GitHub handle in search results.
 3. User should see the target user's GitHub follower count in search results.
