@@ -49,11 +49,9 @@ HTML / Bootstrap CSS / AngularJS
 
 I've debated whether I shoud use jQuery or AngularJS for this project. In the end, I choose AngularJS because
 
-1. Right tool for the job. It's built specifically for single page applications.
-2. Scalability. Besides feature-rich, it's built to scale by helping you break things down to reusable modules, directives/components, and services.
-3. Familiarity. Although I'm experienced with both jQuery and AngularJS, I personally find jQuery only useful for simple DOM manupulations. While you can be fancy with it, it's just not the best fit for this project. React is a very interesting option. I've heard nothing but good things about React so far. However, since I've never used it, it would probably take me a few weeks to get comfortable with it. Due to the time contraint, I had to eliminate React as an alternative.
-
--
+- **Right tool for the job.** It's built specifically for single page applications.
+- **Scalability.** Besides feature-rich, it's built to scale by helping you break things down to reusable modules, directives/components, and services.
+- **Familiarity.** Although I'm experienced with both jQuery and AngularJS, I personally find jQuery only useful for simple DOM manupulations. While you can be fancy with it, it's just not the best fit for this project. React is a very interesting option. I've heard nothing but good things about React so far. However, since I've never used it, it would probably take me a few weeks to get comfortable with it. Due to the time contraint, I had to eliminate React as an alternative.
 
 >We value quality over feature-completeness. It is fine to leave things aside provided you call them out in your project's README. The goal of this code sample is to help us identify what you consider production-ready code. You should consider this code ready for final review with your colleague, i.e. this would be the last step before deploying to production.
 
