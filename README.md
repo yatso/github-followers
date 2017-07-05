@@ -98,11 +98,13 @@ Please see above. [Live Demo](https://github.com/yatso/GitHub-Followers#live-dem
     coding style consistent with the language's guidelines? Is it consistent
     throughout the codebase?
     
-    For the benefit of readability and maintainability,
+For the benefit of readability and maintainability,
     
-    1. Naming - I tried to be as explicit as possible when naming variables and functions in plain English using proper camel casing. Hence the long names :P. I realized that most comments are not needed when the naming is done right.
-    2. Single responsibility principle - I ruthlessly refactored each function to do only one thing and do that one thing well. Besides easy to read, it's reusable.
-    3. Bindable members up top. Whatever is bindable, gets binded at the top and alphabetized. All the function definitions with implementation details are at the bottom. You can look at the top for a quick summary without diving into the details.
+- **Naming.** I tried to be as explicit as possible when naming variables and functions in plain English using proper camel casing. Hence the long names :P. I realized that most comments are not needed when the naming is done right.
+- **Single responsibility principle.** I ruthlessly refactored each function to do only one thing and do that one thing well. Besides easy to read, it's reusable.
+- **Bindable members up top.** Whatever is bindable, gets binded at the top and alphabetized. All the function definitions with implementation details are at the bottom. You can look at the top for a quick summary without diving into the details.
+
+# Testing
 
  >Testing: how thorough are the automated tests? Will they be difficult to
     change if the requirements of the application were to change? Are there some
@@ -110,7 +112,7 @@ Please see above. [Live Demo](https://github.com/yatso/GitHub-Followers#live-dem
 	  * We're not looking for full coverage (given time constraint) but just
               trying to get a feel for your testing skills.
 
-	Please see above. Features I've decided to forego due to time constraint of this project.
+Please see above. [Excluded Features]()
 
 
 >UX: is the web interface understandable and pleasing to use?
