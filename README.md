@@ -176,7 +176,7 @@ Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technic
 
 # Acknowledgments
 
-This project was inspired by a [coding challenge](https://github.com/newshipt/web-coding-challenge) sent by [SHIPT](https://www.shipt.com/)
+This project was inspired by a [coding challenge](https://github.com/newshipt/web-coding-challenge) sent by [Shipt](https://www.shipt.com/)
 
 Truly one of the best coding challenges I've encountered. Kudos to whomever wrote it.
 
