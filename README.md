@@ -120,6 +120,8 @@ Please see [Excluded Features](https://github.com/yatso/GitHub-Followers#exclude
 
 I've tried my best to make this as user friendly as possible. [Live Demo](https://yatso.github.io/GitHub-Followers/)
 
+For the user interface, I haven't had enough time to truly optimize it but I followed some of the principals I wrote about in a recent [medium blog post](https://medium.com/yats-blog/ui-design-hacks-you-can-implement-today-from-my-visual-designer-gf-at-google-f284c5f7e686).
+
 # Scalability
 
 >Scalability: will technical choices scale well? If not, is there a
