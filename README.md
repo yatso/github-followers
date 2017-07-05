@@ -47,7 +47,7 @@ HTML / Bootstrap CSS / AngularJS
 
 >Technical choices: do choices of libraries, architecture etc. seem appropriate for the chosen application?
 
-I've debated whether I shoud use jQuery or AngularJS for this project. In the end, I choose AngularJS because
+I've debated whether I shoud use jQuery or AngularJS for this project. In the end, I chose AngularJS because
 
 - **Right tool for the job.** It's built specifically for single page applications.
 - **Scalability.** Besides feature-rich, it's built to scale by helping you break things down to reusable modules, directives/components, and services.
