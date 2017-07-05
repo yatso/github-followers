@@ -136,7 +136,7 @@ Please see [Excluded Features](https://github.com/yatso/GitHub-Followers#exclude
 
 >UX: is the web interface understandable and pleasing to use?
 
-Tried my best to make this as user friendly as possible given the limited time. [Live Demo](https://yatso.github.io/GitHub-Followers/)
+Tried my best to make this as user friendly as possible given the limited time. [Live Demo](https://yatso.github.io/github-followers)
 
 - **Mobile responsive.** Besides Bootstrap, I used a CSS technique ' calc(30px + 1vw) ' to make font sizes dynamic.
 - **Large easy to read text.** Supporting text for error and alert messages.
