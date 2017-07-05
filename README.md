@@ -118,9 +118,11 @@ Please see [Excluded Features](https://github.com/yatso/GitHub-Followers#exclude
 
 >UX: is the web interface understandable and pleasing to use?
 
-I've tried my best to make this as user friendly as possible. [Live Demo](https://yatso.github.io/GitHub-Followers/)
+Tried my best to make this as user friendly as possible given the limited time. [Live Demo](https://yatso.github.io/GitHub-Followers/)
 
-For the user interface, I haven't had time to truly optimize it but I followed some of the principals I wrote about in a recent [medium blog post](https://medium.com/yats-blog/ui-design-hacks-you-can-implement-today-from-my-visual-designer-gf-at-google-f284c5f7e686).
+# UI
+
+For the User Interface, I haven't had time to truly optimize it but I followed some of the principals I wrote about in a recent [medium blog post](https://medium.com/yats-blog/ui-design-hacks-you-can-implement-today-from-my-visual-designer-gf-at-google-f284c5f7e686).
 
 # Scalability
 
