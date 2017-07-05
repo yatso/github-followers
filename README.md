@@ -142,7 +142,7 @@ Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technic
 
 - **Other Projects** - [Your Todo List](https://yatso.me/your-todo-list.html) and [Mootli](https://yatso.me/mootli.html)
 
-- **Resume** - [UI/UX Developer](https://yatso.me/uploads/3/8/7/0/38704361/yat_so_ui_ux_dev_resume.pdf)
+- **Resume** - [UI / UX Developer](https://yatso.me/uploads/3/8/7/0/38704361/yat_so_ui_ux_dev_resume.pdf)
 
 
 # Acknowledgments
