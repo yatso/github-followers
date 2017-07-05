@@ -47,7 +47,7 @@ HTML / Bootstrap CSS / AngularJS
 
 >Technical choices: do choices of libraries, architecture etc. seem appropriate for the chosen application?
 
-I've debated whether I shoud use jQuery or AngularJS for this project. In the end, I chose AngularJS because
+I've debated whether I shoud use jQuery (for its lightweight) or AngularJS for this project. In the end, I chose AngularJS because
 
 - **Right tool for the job.** It's built specifically for single page applications.
 - **Scalability.** Besides feature-rich, it's built to scale by helping you break things down to reusable modules, directives/components, and services.
@@ -76,15 +76,21 @@ My initial prototype was built using $scope. During refactoring, I followed John
 - **I created separate modules by feature.** All feature modules were grouped into folders with module, routing, controller, service, and html template files. So each feature could stand on its own.
 - **I moved the remote data access logic from the controller to a service.** To make our code more reusable and clears up our controller.
 
+# Clarity
+
 >Clarity: does the README clearly and concisely explains the problem and
     solution? Are technical tradeoffs explained?
 
-    Please see above.
+Please see above. [Problem](https://github.com/yatso/GitHub-Followers#problem) / [Solution](https://github.com/yatso/GitHub-Followers#solution) / [Technical Choices](https://github.com/yatso/GitHub-Followers#technical-choices).
+
+# Correctness
 
 >Correctness: does the application do what was asked? If there is anything
     missing, does the README explain why it is missing?
     
-	Please see above.
+Please see above. [Live Demo](https://github.com/yatso/GitHub-Followers#live-demo) / [Features Excluded](https://github.com/yatso/GitHub-Followers#features-excluded)
+
+# Code Quality
 
 >Code quality: is the code simple, easy to understand, and maintainable?
     Are there any code smells or other red flags? Does object-oriented code
