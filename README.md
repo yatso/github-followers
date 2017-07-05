@@ -49,11 +49,11 @@ A user should have an easy way to find followers of other GitHub users by search
 # Solution
 Pull in data using GitHub API. Use AngularJS on the frontend to capture username inputs and display results back to the user. 
 
-- **Day 1** (Friday 6/30) - Research and thinking through the problem
-- **Day 2** (Saturday 7/1) - Built a working prototype
-- **Day 3** (Sunday 7/2) - Refactoring structure & code
-- **Day 4** (Monday 7/3) - Refactoring code and polish UI
-- **Day 5** (Tuesday 7/4) - Polish UI and README
+- **Day 1** (Friday 6/30) - Research and think through the problem
+- **Day 2** (Saturday 7/1) - Build a working prototype
+- **Day 3** (Sunday 7/2) - Refactor structure & code
+- **Day 4** (Monday 7/3) - Continue to refactor code & polish UI
+- **Day 5** (Tuesday 7/4) - Continue to polish UI & build README
 
 # Tech Stack
 
