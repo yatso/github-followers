@@ -22,7 +22,7 @@ A user should have an easy way to find followers of other GitHub users by search
 2. User should see the target user's GitHub handle in search results.
 3. User should see the target user's GitHub follower count in search results.
 4. User should see the target user's list of followers' avatars in search results.
-5. User should see only a portion of the target user's list of followers' avatars with a load more button.
+~~5. User should see only a portion of the target user's list of followers' avatars with a load more button.
 
 # Constraints
 
