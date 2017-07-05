@@ -1,11 +1,11 @@
 # GitHub Followers
 A simple app to help you find followers of other GitHub users. 
 
-<a href="https://yatso.github.io/GitHub-Followers/"><img src="images/gf-laptop-and-android-trimmed.png" width="550px">
+<a href="https://yatso.github.io/github-followers"><img src="images/gf-laptop-and-android-trimmed.png" width="550px">
 </a>
 
 # Live Demo ( mobile responsive )
-[GitHub Pages (main host)](https://yatso.github.io/GitHub-Followers/)
+[GitHub Pages (main host)](https://yatso.github.io/github-followers)
 
 [Google Firebase (backup host)](https://github-followers.firebaseapp.com)
 
