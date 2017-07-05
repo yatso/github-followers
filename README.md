@@ -77,16 +77,16 @@ Features I've excluded due to the time constraints of this project:
 
 - **Pagination.** Not enough time to complete research and implement pagination for the load more feature.
 
-- **Automated tests.** I've done some unit testing with tinyTest.js library before but since I'm still in the learning stage, I wouldn't have time to learn how to test in Angular and implement it for this project. I've decided to pass on automated testing.
+- **Automated tests.** I've done some unit testing with tinyTest.js library before but since I'm still in the learning stage, I wouldn't have enough time to implement it in AngularJS for this project. I've decided to pass on automated testing.
 
-- **Sketching UI mockups/UX flows.** Due to time constraints, I coded the functionality first in Angular then went straight to html/css for the UI layout.
+- **Sketching UI mockups/UX flows.** Due to time constraints, I coded the functionality first in AngularJS then went straight to HTML/CSS for the UI layout.
 
 # Architecture
 
 >Architecture: how clean is the separation and construction of the
     application?
     
-My initial prototype was built using $scope. During refactoring, I followed John Papa's Angular 1 style guide for architecture.
+My initial prototype was built using lots of $scope. During refactoring, I followed John Papa's Angular 1 style guide for architecture.
 
 - **I killed the use of $scope, using controllerAs vm instead.** Cleaner code and encourages the use of $scope only when you absolutely need it.
 - **I created separate modules by feature.** All feature modules were grouped into folders with module, routing, controller, service, and html template files. So each feature could stand on its own.
