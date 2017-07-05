@@ -136,7 +136,7 @@ Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technic
 
 # Authors
 
-- **Yat So**  - [Yat's GitHub](https://github.com/yatso)
+- **Yat So**  - [GitHub](https://github.com/yatso)
 
 - **Portfolio**  - [yatso.me](https://yatso.me)
 
