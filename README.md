@@ -17,14 +17,14 @@ Built with :heart: using AngularJS 1.6.5
 # Problem
 A user should have an easy way to find followers of other GitHub users by searching for their GitHub username.
 
-Project required features:
+Project requirements/feature requests:
 1. User can search by target GitHub username.
 2. User should see the target user's GitHub handle in search results.
 3. User should see the target user's GitHub follower count in search results.
 4. User should see the target user's list of followers' avatars in search results.
 5. User should see only a portion of the target user's list of followers' avatars with a load more button.
 
-The time constraint for this project/coding challenge was five business days.
+The time constraint for this coding challenge was **five business days.**
 
 Coding challenge guidelines
 https://github.com/newshipt/web-coding-challenge
@@ -32,16 +32,11 @@ https://github.com/newshipt/web-coding-challenge
 # Solution
 Pull in data using GitHub API. Use AngularJS on the frontend to capture username inputs and display results (followers info) back to the user. 
 
-Day 1 (Friday 6/30) - Research and thinking through the problem
-Day 2 (Saturday 7/1) - Built a working prototype
-Day 3 (Sunday 7/2) - Refactoring structure & code
-Day 4 (Monday 7/3) - Refactoring code and polish UI
-Day 5 (Tuesday 7/4) - Polish UI and README
-
-
-* Reasoning behind your technical choices, including architectural trade-offs
-    you might have made, anything you left out, or what you might do differently
-    if you were to spend additional time on the project.
+- Day 1 (Friday 6/30) - Research and thinking through the problem
+- Day 2 (Saturday 7/1) - Built a working prototype
+- Day 3 (Sunday 7/2) - Refactoring structure & code
+- Day 4 (Monday 7/3) - Refactoring code and polish UI
+- Day 5 (Tuesday 7/4) - Polish UI and README
 
 # Technical Considerations
 
