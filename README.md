@@ -70,11 +70,11 @@ Features I've decided to exclude due to time constraints of this project:
 >Architecture: how clean is the separation and construction of the
     application?
     
-My initial prototype was built using $scope. During refactoring, I followed John Papa's Angular 1 guide for architecture. 
+My initial prototype was built using $scope. During refactoring, I followed John Papa's Angular 1 style guide for architecture.
 
-    1. I killed the use of $scope, using controllerAs vm instead. Cleaner code and encourages the use of $scope only when you absolutely need it.
-    2. I created separate modules by feature. All feature modules were grouped into folders with module, routing, controller, service, and html template files. So each feature could stand on its own.
-    3. I moved the remote data access logic from the controller to a service. To make our code more reusable and clears up our controller.
+1. **I killed the use of $scope, using controllerAs vm instead.** Cleaner code and encourages the use of $scope only when you absolutely need it.
+2. **I created separate modules by feature.** All feature modules were grouped into folders with module, routing, controller, service, and html template files. So each feature could stand on its own.
+3. **I moved the remote data access logic from the controller to a service.** To make our code more reusable and clears up our controller.
 
 >Clarity: does the README clearly and concisely explains the problem and
     solution? Are technical tradeoffs explained?
