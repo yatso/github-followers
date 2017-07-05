@@ -39,6 +39,10 @@ Pull in data using GitHub API. Use AngularJS on the frontend to capture username
 - **Day 4** (Monday 7/3) - Refactoring code and polish UI
 - **Day 5** (Tuesday 7/4) - Polish UI and README
 
+# Tech Stack
+
+HTML / Bootstrap CSS / AngularJS
+
 # Technical Considerations
 
 >Technical choices: do choices of libraries, architecture etc. seem appropriate for the chosen application?
