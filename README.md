@@ -136,9 +136,11 @@ Please see [Excluded Features](https://github.com/yatso/GitHub-Followers#exclude
 
 Tried my best to make this as user friendly as possible given the limited time. [Live Demo](https://yatso.github.io/GitHub-Followers/)
 
+If given more time, I would think more deeply about the user flows and sketch it out before coding it. A few UX enhancing features I would consider are preloading the landing page of the app with example content, stronger username validation, and using CSS Flexbox to handle multiple columns of avatars. 
+
 # UI - User Interface
 
-For the UI, I haven't had time to truly optimize it but I followed some of the principals I wrote about in a recent [medium blog post](https://medium.com/yats-blog/ui-design-hacks-you-can-implement-today-from-my-visual-designer-gf-at-google-f284c5f7e686).
+For the UI, I haven't had time to truly optimize it but I did follow some of the principals I wrote about in a recent [medium blog post](https://medium.com/yats-blog/ui-design-hacks-you-can-implement-today-from-my-visual-designer-gf-at-google-f284c5f7e686).
 
 # Scalability
 
