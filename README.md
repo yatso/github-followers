@@ -4,13 +4,19 @@ A simple app to help you find followers of other GitHub users.
 <a href="https://yatso.github.io/GitHub-Followers/"><img src="images/gf-laptop-and-android-trimmed.png" width="550px">
 </a>
 
-## Live Demo
+<hr>
+
+# Live Demo
 https://yatso.github.io/GitHub-Followers/
 
 Built with :heart: using AngularJS 1.6.5
 
+# Table of Contents
 
-## Problem
+- link 1
+- link 2
+
+# Problem
 A user should have an easy way to find followers of other GitHub users by searching for their GitHub username.
 
 Project required features:
@@ -25,7 +31,7 @@ The time constraint for this project/coding challenge was five business days.
 Coding challenge guidelines
 https://github.com/newshipt/web-coding-challenge
 
-## Solution
+# Solution
 Pull in data using GitHub API. Use AngularJS on the frontend to capture username inputs and display results (followers info) back to the user. 
 
 Day 1 (Friday 6/30) - Research and thinking through the problem
@@ -39,7 +45,7 @@ Day 5 (Tuesday 7/4) - Polish UI and README
     you might have made, anything you left out, or what you might do differently
     if you were to spend additional time on the project.
 
-## Technical Considerations
+# Technical Considerations
 
 >Technical choices: do choices of libraries, architecture etc. seem appropriate for the chosen application?
 
@@ -117,7 +123,7 @@ Features I've decided to forego due to time constraint of this project:
     2. Use of John Papa's style guide.
 
 
-## Product Requrements Spreadsheet
+# Product Requrements Spreadsheet
 
 Live spreadsheet of where I keep track of features/bug fixes for this project
 https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2tLc/edit?usp=sharing
@@ -125,7 +131,7 @@ https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2
 <a href="https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2tLc/edit?usp=sharing"><img src="images/gf-spreadsheet-ss.png" width="550px">
 </a>
 
-## Authors
+# Authors
 
 * **Yat So**  - [yatso](https://github.com/yatso)
 
@@ -137,7 +143,7 @@ https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2
 
 
 
-## Acknowledgments
+# Acknowledgments
 
 * This project was inspired by a coding challenge at sent over by Shipt
 
