@@ -4,9 +4,11 @@ A simple app to help you find followers of other GitHub users.
 <a href="https://yatso.github.io/GitHub-Followers/"><img src="images/gf-laptop-and-android-trimmed.png" width="550px">
 </a>
 
-**Live Demo:** https://yatso.github.io/GitHub-Followers/
+## Live Demo
+https://yatso.github.io/GitHub-Followers/
 
-Built with love using AngularJS 1.6.5
+Built with :heart: using AngularJS 1.6.5
+
 
 ## Problem
 A user should have an easy way to find followers of other GitHub users by searching for their GitHub username.
