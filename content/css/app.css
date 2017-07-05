@@ -1,27 +1,26 @@
+/* reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+
 body {
     text-align: center;
     padding-top: 70px;
 }
 
-section {
-    margin: 20px;
-}
+/* getFollowers module template */
 
-.enter-username-label {
-    /* grey */
-    color: #757575;
-    padding-left: 5%;
-}
-
-.error-label {
-    /* grey */
-    color: #757575;
-    padding-left: 5%;
+.search-section, .results-section {
+    margin: calc(20px + 1vw);
 }
 
 .username-input {
     border: none;
-    outline: none;
     /* grey */
     color: #616161;
     background-color: #f5f5f5;
@@ -34,9 +33,13 @@ section {
     vertical-align: bottom;
 }
 
+.username-input:focus {
+    outline: none;
+}
+
 .search-button {
     border: none;
-    outline: none;
+/*    outline: none;*/
     border-radius: 1px;
     /* lighter green color */
     background-color: #95D061;
@@ -48,6 +51,33 @@ section {
     font-size: calc(20px + 1vw);
     width: 24%;
     height: 75px;
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+.status-div {
+    text-align: left;
+}
+
+.enter-username-label, .error-label {
+    /* grey */
+    color: #757575;
+    padding-left: 5%;
+}
+
+.username-display-div {
+    /* light green */
+    background-color: #BCE994;
+    padding: calc(25px + 1vw);
+}
+
+.username-title {
+    /* grey */
+    color: #616161;
+    font-size: calc(50px + 1vw);
+    line-height: 1.1;
 }
 
 .followers-title {
@@ -72,10 +102,12 @@ td {
     padding: 5px;
 }
 
-.max-avatar-text {
+.avatar-warning-text {
     /* grey */
     color: #616161;
 }
+
+/* layout module template */
 
 .navbar-custom {
     /* light grey */
@@ -94,19 +126,16 @@ td {
     font-weight: 300;
 }
 
-.search-div {
-    text-align: left;
-}
 
-.username-div {
-    /* light green */
-    background-color: #BCE994;
-    padding: calc(25px + 1vw);
-}
 
-.username-title {
-    /* grey */
-    color: #616161;
-    font-size: calc(50px + 1vw);
-    line-height: 1.1;
-}
+
+
+
+
+
+
+
+
+
+
+

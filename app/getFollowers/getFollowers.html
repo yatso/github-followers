@@ -1,18 +1,18 @@
 <main>
-    <section class="section">
-        <div class="search-div">
-            <!-- Form for username entry with built-in Angular form controls -->
-            <form name="userForm" ng-submit="vm.getAll(vm.username)" novalidate>
-                <input name="usernameInput" ng-model="vm.username" class="username-input" type="text" autocomplete="off" required/>
-                <button ng-disabled="!(userForm.$valid)" type="submit" class="search-button" class="btn btn-primary">Get</button>
-                <br/>
+    <section class="search-section">
+        <!-- Form for username entry with built-in Angular form controls -->
+        <form name="userForm" ng-submit="vm.getAll(vm.username)" novalidate>
+            <input name="usernameInput" ng-model="vm.username" class="username-input" type="text" autocomplete="off" required>
+            <button ng-disabled="!(userForm.$valid)" type="submit" class="search-button" class="btn btn-primary">Get</button>
+            <br>
+            <div class="status-div">
                 <label ng-show="!(userForm.$valid)" class="enter-username-label" for="username-input">Please enter a GitHub username</label>
                 <label ng-show="vm.errorMessage" class="error-label" for="username-input">{{vm.errorMessage}}</label>
-            </form>
-        </div>
+            </div>
+        </form>
     </section>
-    <section class="section">
-        <div ng-show="vm.userObj.login" class="username-div">
+    <section class="results-section">
+        <div ng-show="vm.userObj.login" class="username-display-div">
             <span class="username-title">{{vm.userObj.login}}</span>
             <br>
             <span class="followers-title"> has {{vm.userObj.followers}} followers</span>
@@ -22,7 +22,7 @@
                 <td><img ng-src="{{item.avatar_url}}" alt="Description" width="200px" /></td>
             </tr>
             <tr>
-                <td ng-show="vm.userObj.followers > 30"><span class="max-avatar-text">30 max avatars for this version. Stay tuned :)</span></td>
+                <td ng-show="vm.userObj.followers > 30"><span class="avatar-warning-text">30 max avatars for this version. Stay tuned :)</span></td>
             </tr>
         </table>
     </section>
