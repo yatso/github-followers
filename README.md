@@ -128,13 +128,11 @@ I've tried my best to make this as user friendly as possible. [Live Demo](https:
 Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technical-choices) / [Architecture](https://github.com/yatso/GitHub-Followers#architecture)
 
 
-# Product Requrements Spreadsheet
+# Product Requirements Spreadsheet
 
-Live spreadsheet of where I keep track of features/bug fixes for this project
-https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2tLc/edit?usp=sharing
+[Live spreadsheet](https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2tLc/edit?usp=sharing) of where I keep track of features/bug fixes for this project
 
-<a href="https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2tLc/edit?usp=sharing"><img src="images/gf-spreadsheet-ss.png" width="550px">
-</a>
+<img src="images/gf-spreadsheet-ss.png" width="550px">
 
 # Authors
 
