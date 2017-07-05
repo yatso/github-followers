@@ -136,14 +136,13 @@ Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technic
 
 # Authors
 
-* **Yat So**  - [yatso](https://github.com/yatso)
+- **Yat So**  - [Yat's GitHub](https://github.com/yatso)
 
- **Other Code** Your Todo List and Mootli
+- **Portfolio**  - [Portfolio](https://yatso.me)
 
- **Resume** resume link
+- **Other Projects** [Your Todo List](https://yatso.me/your-todo-list.html) and [Mootli](https://yatso.me/mootli.html)
 
- **Portfolio** 
-
+- **Resume** [Resume](https://yatso.me/uploads/3/8/7/0/38704361/yat_so_ui_ux_dev_resume.pdf)
 
 
 # Acknowledgments
