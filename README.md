@@ -88,7 +88,7 @@ Please see above. [Problem](https://github.com/yatso/GitHub-Followers#problem) /
 >Correctness: does the application do what was asked? If there is anything
     missing, does the README explain why it is missing?
     
-Please see above. [Live Demo](https://github.com/yatso/GitHub-Followers#live-demo) / [Features Excluded](https://github.com/yatso/GitHub-Followers#features-excluded)
+Please see above. [Live Demo](https://github.com/yatso/GitHub-Followers#live-demo) / [Excluded Features](https://github.com/yatso/GitHub-Followers#excluded-features)
 
 # Code Quality
 
@@ -112,7 +112,7 @@ For the benefit of readability and maintainability,
 	  * We're not looking for full coverage (given time constraint) but just
               trying to get a feel for your testing skills.
 
-Please see above. [Excluded Features]()
+Please see above. [Excluded Features](https://github.com/yatso/GitHub-Followers#excluded-features)
 
 
 >UX: is the web interface understandable and pleasing to use?
