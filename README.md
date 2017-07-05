@@ -24,10 +24,11 @@ A user should have an easy way to find followers of other GitHub users by search
 4. User should see the target user's list of followers' avatars in search results.
 5. User should see only a portion of the target user's list of followers' avatars with a load more button.
 
-The time constraint for this coding challenge was **five business days.**
+# Constraints
 
-Coding challenge guidelines
-https://github.com/newshipt/web-coding-challenge
+- The time constraint for this coding challenge was **five business days.**
+
+- Coding challenge guidelines https://github.com/newshipt/web-coding-challenge
 
 # Solution
 Pull in data using GitHub API. Use AngularJS on the frontend to capture username inputs and display results (followers info) back to the user. 
