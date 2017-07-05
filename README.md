@@ -5,7 +5,9 @@ A simple app to help you find followers of other GitHub users.
 </a>
 
 # Live Demo ( mobile responsive )
-https://yatso.github.io/GitHub-Followers/
+[GitHub Pages (main host)](https://yatso.github.io/GitHub-Followers/)
+
+[Google Firebase (backup host)](https://github-followers.firebaseapp.com)
 
 Built with :heart: using AngularJS 1.6.5
 
@@ -44,7 +46,7 @@ A user should have an easy way to find followers of other GitHub users by search
 
 - The time constraint for this coding challenge was **five business days.**
 
-- Coding challenge guidelines https://github.com/newshipt/web-coding-challenge
+- [Coding challenge guidelines](https://github.com/newshipt/web-coding-challenge)
 
 # Solution
 Pull in data using GitHub API. Use AngularJS on the frontend to capture username inputs and display results back to the user. 
