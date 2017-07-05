@@ -167,5 +167,10 @@ Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technic
 
 # Acknowledgments
 
-This project was inspired by a coding challenge sent by [SHIPT](https://www.shipt.com/)
+This project was inspired by a [coding challenge](https://github.com/newshipt/web-coding-challenge) sent by [SHIPT](https://www.shipt.com/)
 
+Truly one of the best coding challenges I've encountered. Kudos to whomever wrote it.
+
+- **Well thought out.** Very clear instructions and guidelines. Whomever wrote it must've invested a lot of effort in it.
+- **Makes you a better programmer.**  Practical excercise that not only tests you for on the job expectations but also challenges you to write cleaner, more scalable code.
+- **Estimated time is almost spot on.** This project took me 41.5 hours in total to complete which is equivalent to five working days.
