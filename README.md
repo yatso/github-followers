@@ -1,4 +1,4 @@
-<a href="https://yatso.github.io/GitHub-Followers/"><img src="images/screenshot.png" width="550px">
+<a href="https://yatso.github.io/GitHub-Followers/"><img src="images/gf-laptop-and-android-trimmed.png" width="550px">
 </a>
 
 ## Live Demo: https://yatso.github.io/GitHub-Followers/
@@ -121,7 +121,7 @@ Features I've decided to forego due to time constraint of this project:
 Live spreadsheet of where I keep track of features/bug fixes for this project
 https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2tLc/edit?usp=sharing
 
-<a href="https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2tLc/edit?usp=sharing"><img src="images/spreadsheet.png" width="550px">
+<a href="https://docs.google.com/spreadsheets/d/13ypPi10-G5HgvTqD2dZtwpa4yJo2Tk45mxpkjPE2tLc/edit?usp=sharing"><img src="images/gf-spreadsheet-ss.png" width="550px">
 </a>
 
 ## Authors
