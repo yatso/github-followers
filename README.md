@@ -140,7 +140,7 @@ Tried my best to make this as user friendly as possible given the limited time. 
 - **Large easy to read text.** Supporting text for error and alert messages.
 - **Green and white color theme that's easy on the eyes.** Started out with the SHIPT green color then used a color wheel generator to pick out other shades of the green. Also used material color picker.
 
-If given more time, I would think more deeply about the user flows and sketch it out before coding it. A few UX enhancing features I would consider are preloading the landing page of the app with example content, stronger username validation, and using CSS Flexbox to handle multiple columns of avatars. 
+If given more time, I would think more deeply about the user flows and sketch it out before coding it. Perhaps even have real users test it with each iteration to get feedback. A few UX enhancing features I would consider are preloading the landing page of the app with example content, stronger username validation, and using CSS Flexbox to handle multiple columns of avatars. 
 
 # UI - User Interface
 
