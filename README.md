@@ -81,14 +81,14 @@ My initial prototype was built using $scope. During refactoring, I followed John
 >Clarity: does the README clearly and concisely explains the problem and
     solution? Are technical tradeoffs explained?
 
-Please see above. [Problem](https://github.com/yatso/GitHub-Followers#problem) / [Solution](https://github.com/yatso/GitHub-Followers#solution) / [Technical Choices](https://github.com/yatso/GitHub-Followers#technical-choices).
+Please see [Problem](https://github.com/yatso/GitHub-Followers#problem) / [Solution](https://github.com/yatso/GitHub-Followers#solution) / [Technical Choices](https://github.com/yatso/GitHub-Followers#technical-choices).
 
 # Correctness
 
 >Correctness: does the application do what was asked? If there is anything
     missing, does the README explain why it is missing?
     
-Please see above. [Live Demo](https://github.com/yatso/GitHub-Followers#live-demo) / [Excluded Features](https://github.com/yatso/GitHub-Followers#excluded-features)
+Please see [Live Demo](https://github.com/yatso/GitHub-Followers#live-demo) / [Excluded Features](https://github.com/yatso/GitHub-Followers#excluded-features)
 
 # Code Quality
 
@@ -112,21 +112,20 @@ For the benefit of readability and maintainability,
 	  * We're not looking for full coverage (given time constraint) but just
               trying to get a feel for your testing skills.
 
-Please see above. [Excluded Features](https://github.com/yatso/GitHub-Followers#excluded-features)
+Please see [Excluded Features](https://github.com/yatso/GitHub-Followers#excluded-features)
 
+# UX
 
 >UX: is the web interface understandable and pleasing to use?
 
-	I've tried my best to make this as user friendly as possible. Please see screenshots:
+I've tried my best to make this as user friendly as possible. [Live Demo](https://yatso.github.io/GitHub-Followers/)
 
-	// screenshots go here.
-
+# Scalability
 
 >Scalability: will technical choices scale well? If not, is there a
     discussion of those choices in the README?
 
-    1. Use of AngularJS. 
-    2. Use of John Papa's style guide.
+Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technical-choices) / [Architecture](https://github.com/yatso/GitHub-Followers#architecture)
 
 
 # Product Requrements Spreadsheet
