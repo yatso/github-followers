@@ -25,7 +25,7 @@
             }, 2000);
         }
 
-        function failure(error) {
+        function onFail(error) {
             vm.errorMessage = 'Sorry GitHub username ' + $filter('lowercase')(error.statusText);
             clearErrorMessage();
         }
@@ -36,18 +36,18 @@
         }
 
         function getFollowers(username) {
-            getFollowersService.getFollowers(username).then(successFollowers, failure);
+            getFollowersService.getFollowers(username).then(onFollowersSuccess, onFail);
         }
 
         function getUser(username) {
-            getFollowersService.getUser(username).then(successUser, failure);
+            getFollowersService.getUser(username).then(onUserSuccess, onFail);
         }
 
-        function successFollowers(result) {
+        function onFollowersSuccess(result) {
             vm.followersObj = result.data;
         }
 
-        function successUser(result) {
+        function onUserSuccess(result) {
             vm.userObj = result.data;
         }
 
