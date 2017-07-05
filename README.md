@@ -138,11 +138,11 @@ Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technic
 
 - **Yat So**  - [Yat's GitHub](https://github.com/yatso)
 
-- **Portfolio**  - [Portfolio](https://yatso.me)
+- **Portfolio**  - [yatso.me](https://yatso.me)
 
-- **Other Projects** [Your Todo List](https://yatso.me/your-todo-list.html) and [Mootli](https://yatso.me/mootli.html)
+- **Other Projects** - [Your Todo List](https://yatso.me/your-todo-list.html) and [Mootli](https://yatso.me/mootli.html)
 
-- **Resume** [Resume](https://yatso.me/uploads/3/8/7/0/38704361/yat_so_ui_ux_dev_resume.pdf)
+- **Resume** - [UI/UX Developer](https://yatso.me/uploads/3/8/7/0/38704361/yat_so_ui_ux_dev_resume.pdf)
 
 
 # Acknowledgments
