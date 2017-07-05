@@ -151,5 +151,5 @@ Please see [Technical Choices](https://github.com/yatso/GitHub-Followers#technic
 
 # Acknowledgments
 
-This project was inspired by a coding challenge sent by Shipt
+This project was inspired by a coding challenge sent by [SHIPT](https://www.shipt.com/)
 
