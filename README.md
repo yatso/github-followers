@@ -43,7 +43,7 @@ Pull in data using GitHub API. Use AngularJS on the frontend to capture username
 
 HTML / Bootstrap CSS / AngularJS
 
-# Technical Considerations
+# Technical Choices
 
 >Technical choices: do choices of libraries, architecture etc. seem appropriate for the chosen application?
 
@@ -53,17 +53,19 @@ I've debated whether I shoud use jQuery or AngularJS for this project. In the en
 - **Scalability.** Besides feature-rich, it's built to scale by helping you break things down to reusable modules, directives/components, and services.
 - **Familiarity.** Although I'm experienced with both jQuery and AngularJS, I personally find jQuery only useful for simple DOM manupulations. While you can be fancy with it, it's just not the best fit for this project. React is a very interesting option. I've heard nothing but good things about React so far. However, since I've never used it, it would probably take me a few weeks to get comfortable with it. Due to the time contraint, I had to eliminate React as an alternative.
 
+# Features Excluded
+
 >We value quality over feature-completeness. It is fine to leave things aside provided you call them out in your project's README. The goal of this code sample is to help us identify what you consider production-ready code. You should consider this code ready for final review with your colleague, i.e. this would be the last step before deploying to production.
 
-Features I've decided to forego due to time constraint of this project:
+Features I've decided to exclude due to time constraints of this project:
 
-*Pagination.* Not enough time to research and implement pagination.
+- **Pagination.** Not enough time to complete research and implement pagination for the load more feature.
 
-*Automated testing.* I've done some unit testing with tinyTest.js library before but since I'm still in the learning stage, I wouldn't have time to learn how to test in Angular and implement it for this project. I've decided to pass on automated testing.
+- **Automated tests.** I've done some unit testing with tinyTest.js library before but since I'm still in the learning stage, I wouldn't have time to learn how to test in Angular and implement it for this project. I've decided to pass on automated testing.
 
-*Sketching UI mockups/UX flows.* Due to time constraints, I coded the functionality first in Angular then went straight to html/css for the UI layout.
+- **Sketching UI mockups/UX flows.** Due to time constraints, I coded the functionality first in Angular then went straight to html/css for the UI layout.
 
--
+# Architecture
 
 >Architecture: how clean is the separation and construction of the
     application?
