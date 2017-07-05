@@ -106,7 +106,7 @@ Please see [Problem](https://github.com/yatso/GitHub-Followers#problem) / [Solut
 >Correctness: does the application do what was asked? If there is anything
     missing, does the README explain why it is missing?
     
-Please see [Live Demo](https://github.com/yatso/GitHub-Followers#live-demo) / [Excluded Features](https://github.com/yatso/GitHub-Followers#excluded-features)
+Please see [Live Demo](https://github.com/yatso/GitHub-Followers#live-demo--mobile-responsive-) / [Excluded Features](https://github.com/yatso/GitHub-Followers#excluded-features)
 
 # Code Quality
 
