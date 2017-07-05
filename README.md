@@ -1,4 +1,4 @@
-# GitHub-Followers
+# GitHub Followers
 A simple app to help you find followers of other GitHub users. 
 
 <a href="https://yatso.github.io/GitHub-Followers/"><img src="images/gf-laptop-and-android-trimmed.png" width="550px">
